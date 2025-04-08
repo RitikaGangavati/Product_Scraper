@@ -1,4 +1,4 @@
-# 🛒 Product Scraper API (Amazon/Product Website Scraper)
+# 🛒 Product Scraper API (E-commerce Product Scraper)
 
 This is a Node.js and Express-based web scraper using Puppeteer to scrape product data (name, price, description, ratings) from websites like Amazon or BooksToScrape and store it into MongoDB.
 It includes API routes to perform CRUD operations on the scraped data.
