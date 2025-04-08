@@ -12,7 +12,7 @@ const scrapeProducts = async () => {
     'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
   );
 
-  // ✅ Your copied Amazon search link
+  // Add Url of e-commerce website
   await page.goto('https://www.amazon.in/s?k=headphones&crid=25RFJX5I7RVH2&sprefix=headphones%2Caps%2C288&ref=nb_sb_noss_2', {
     waitUntil: 'domcontentloaded',
     timeout: 0,
